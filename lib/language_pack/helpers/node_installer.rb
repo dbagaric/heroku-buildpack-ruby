@@ -5,7 +5,7 @@ class LanguagePack::NodeInstaller
   LEGACY_NODE_VERSION = "0.4.7"
   LEGACY_BINARY_PATH = "node-#{LEGACY_NODE_VERSION}"
 
-  NODEJS_BASE_URL     = "https://nodejs.org/download/release/v0.10.30/node-v0.10.30-linux-x64.tar.gz"
+  NODEJS_BASE_URL     = "https://nodejs.org/download/release/v0.10.30/"
 
   def initialize(stack)
     @fetchers = {
